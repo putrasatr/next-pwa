@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3011",
+    "dev": "cross-env next dev -p 3011",
     "build": "next build",
     "start": "next start -p 3011"
   },
@@ -14,6 +14,7 @@
   "devDependencies": {
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
+    "cross-env": "^7.0.3",
     "typescript": "4.5.4"
   }
 }
